@@ -57,14 +57,14 @@ const instagram = 'http://www.instagram.com/';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Causs\n' // Nama kamu
+            + 'FN:Friboi\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=554792091566:+55 47992091566\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=5515998576105:+55 15998676105\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
 limitawal = '999999999'
-cr = '*Causs*'
+cr = '*FRIBOI*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -301,10 +301,10 @@ async function starts() {
 
 			const botNumber = client.user.jid
 			const ownerNumber = ["554792091566@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"554792091566@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["554792091566@s.whatsapp.net","558296156440@s.whatsapp.net"] 
+			const mod = [ownerNumber,"5515998576105@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5515998576105@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5515998576105@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5515998576105@s.whatsapp.net","558296156440@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
